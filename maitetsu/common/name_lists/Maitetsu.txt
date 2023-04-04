@@ -1,5 +1,5 @@
 ﻿Maitetsu = {
-
+	category = "Maitetsu"
 	randomized = no
 	ship_names = {
 
@@ -156,6 +156,7 @@
 	character_names = {
 		default = {
 			first_names = {
+				Maitetsu
 			}
                                     	second_names = {
 				Akai_Kiyoharu 

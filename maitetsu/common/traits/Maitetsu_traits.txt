@@ -1,0 +1,14 @@
+trait_MaitetsuPeace = {
+	cost = 0
+	allowed_archetypes = { MAITETSU }
+	modification = no
+	randomized = no
+	immortal_leaders = yes
+	valid_for_all_ethics = no
+	allowed_ethics = {
+		ethic_pacifist
+	}
+
+	modifier = {
+	}
+}

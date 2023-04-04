@@ -1,2 +1,9 @@
 ﻿l_simp_chinese:
- Maitetsu:0 "爱上火车"
+ Maitetsu: "爱上火车"
+ name_list_Maitetsu: "爱上火车"
+ Maitetsu_Empire: "星河铁道"
+ Locomotive: "动车"
+ Station: "站台"
+ Starting_Station: "起点站"
+ Conductor: "列车长"
+ Hachiroku: "八六"

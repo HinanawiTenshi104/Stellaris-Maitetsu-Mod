@@ -1,0 +1,57 @@
+"Maitetsu_Empire" = {
+	key="Maitetsu_Empire"
+	ship_prefix="Locomotive"
+	species={
+		class="Maitetsu"
+		portrait="Maitetsu_portraits"
+		name="Maitetsu"
+		plural="Maitetsu"
+		adjective="Maitetsu"
+		name_list="Maitetsu"
+		trait="trait_MaitetsuPeace"
+	}
+	name="Maitetsu_Empire"
+	adjective="Maitetsu_Empire"
+	authority = "auth_democratic"
+	government = gov_representative_democracy
+	planet_name="Station"
+	planet_class="pc_continental"
+	system_name="Starting_Station"
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="blocky"
+			file="flag_blocky_24.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"beige"
+			"grey"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Hachiroku"
+		portrait="Hachiroku01"
+		texture=0
+		hair=0
+		clothes=0
+		ruler_title="Conductor"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="throne2_room"
+	spawn_enabled=no
+	ethic="ethic_egalitarian"
+	ethic="ethic_pacifist"
+	ethic="ethic_spiritualist"
+	civics = { "civic_beacon_of_liberty" "civic_idealistic_foundation" }
+	origin="origin_default"
+}
