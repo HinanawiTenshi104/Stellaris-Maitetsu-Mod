@@ -1,0 +1,20 @@
+Maitetsu = {
+	archetype = MAITETSU
+
+	possible = { authority = { NOT = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE } } }
+	
+	portraits = {
+		"Maitetsu_portraits" "Raillord_portraits" "Human_portraits"
+	}
+
+	graphical_culture = mammalian_01
+	move_pop_sound_effect = "mammalian_pops_move"
+	
+	
+	non_randomized_portraits = {
+		"Maitetsu_portraits" "Raillord_portraits" "Human_portraits"
+	}
+	
+	resources = {}
+}
+

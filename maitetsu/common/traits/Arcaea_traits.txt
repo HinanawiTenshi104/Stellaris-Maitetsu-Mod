@@ -1,0 +1,189 @@
+trait_Arcaea = {
+	cost = 0
+	allowed_archetypes = { ARCAEA }
+            modification = no
+            randomized = no
+	icon = "gfx/interface/icons/traits/arcaea_core_A.dds"
+	immortal_leaders = yes
+            valid_for_all_ethics = no
+            allowed_ethics = {
+                           ethic_pacifist
+            }
+
+            modifier = {
+                           planet_jobs_unity_produces_mult = 0.33
+                           planet_jobs_consumer_goods_produces_mult = 0.33
+                           planet_jobs_society_research_produces_mult = 0.33
+                           planet_pop_assembly_organic_add = 3
+            }
+}
+
+trait_Arcaea_hp = {
+	cost = 1
+	allowed_archetypes = { ARCAEA }
+            modification = no
+            randomized = no
+	icon = "gfx/interface/icons/traits/arcaea_core_A.dds"
+            valid_for_all_ethics = no
+            allowed_ethics = {
+                           ethic_pacifist
+            }
+            modifier = {
+                           pop_happiness = 0.5
+                           planet_amenities_add = 15
+            }
+}
+
+trait_Arcaea_env = {
+	cost = 1
+	allowed_archetypes = { ARCAEA }
+            modification = no
+            randomized = no
+	icon = "gfx/interface/icons/traits/arcaea_core_A.dds"
+            valid_for_all_ethics = no
+            allowed_ethics = {
+                           ethic_pacifist
+            }
+
+            modifier = {
+                           pop_environment_tolerance = 0.4
+                           bio_pop_growth_speed = 0.33
+                           bio_pop_growth_from_immigration = 0.33
+                           planet_clear_blocker_time_mult = -0.4
+            }
+}
+
+trait_Arcaea_mem = {
+	cost = 1
+	allowed_archetypes = { ARCAEA }
+            modification = no
+            randomized = no
+	icon = "gfx/interface/icons/traits/arcaea_core_A.dds"
+            valid_for_all_ethics = no
+            allowed_ethics = {
+                           ethic_pacifist
+            }
+
+            modifier = {
+                           modify_species_cost_mult = -0.5
+                           planet_orbital_bombardment_damage = -0.5
+            }
+}
+
+trait_Arcaea_sp = {
+	cost = 1
+	allowed_archetypes = { ARCAEA }
+            modification = no
+            randomized = no
+	icon = "gfx/interface/icons/traits/arcaea_core_A.dds"
+            valid_for_all_ethics = no
+            allowed_ethics = {
+                           ethic_pacifist
+            }
+
+            modifier = {
+                           planet_jobs_specialist_produces_mult = 0.15
+                           planet_jobs_worker_produces_mult = -0.05
+                           planet_stability_add = 15
+            }
+}
+
+trait_Arcaea_dc = {
+	cost = 0
+	allowed_archetypes = { ARCAEA }
+            modification = no
+            randomized = no
+	icon = "gfx/interface/icons/traits/arcaea_core_B.dds"
+	immortal_leaders = yes
+            valid_for_all_ethics = no
+            allowed_ethics = {
+                           ethic_militarist
+            }
+
+            modifier = {
+                           planet_jobs_unity_produces_mult = 0.33
+                           planet_jobs_alloys_produces_mult = 0.33
+                           planet_jobs_engineering_research_produces_mult = 0.33
+                           planet_pop_assembly_organic_add = 3
+            }
+}
+
+trait_Arcaea_pj = {
+	cost = 1
+	allowed_archetypes = { ARCAEA }
+            modification = no
+            randomized = no
+	icon = "gfx/interface/icons/traits/arcaea_core_B.dds"
+            valid_for_all_ethics = no
+            allowed_ethics = {
+                           ethic_militarist
+            }
+            modifier = {
+                           pop_happiness = 0.25
+                           planet_jobs_produces_mult = 0.15
+                           planet_amenities_add = -15
+                           pop_category_slave_upkeep_mult = -0.5
+            }
+}
+
+trait_Arcaea_envdc = {
+	cost = 1
+	allowed_archetypes = { ARCAEA }
+            modification = no
+            randomized = no
+	icon = "gfx/interface/icons/traits/arcaea_core_B.dds"
+            valid_for_all_ethics = no
+            allowed_ethics = {
+                           ethic_militarist
+            }
+
+            modifier = {
+                           pop_environment_tolerance = 0.4
+                           local_trade_protection_add = 25
+                           planet_army_build_speed_mult = 0.5
+                           planet_clear_blocker_time_mult = -0.4
+            }
+}
+
+trait_Arcaea_memdc = {
+	cost = 1
+	allowed_archetypes = { ARCAEA }
+            modification = no
+            randomized = no
+	icon = "gfx/interface/icons/traits/arcaea_core_B.dds"
+            valid_for_all_ethics = no
+            allowed_ethics = {
+                           ethic_militarist
+            }
+
+            modifier = {
+                           modify_species_cost_mult = -0.5
+                           damage_vs_country_type_swarm_mult = 0.5
+		   damage_vs_country_type_extradimensional_mult = 0.5
+		   damage_vs_country_type_extradimensional_2_mult = 0.5
+		   damage_vs_country_type_extradimensional_3_mult = 0.5
+		   damage_vs_country_type_ai_empire_mult = 0.5
+		   damage_vs_country_type_gray_goo_mult = 0.5
+		   damage_vs_player_crisis_mult = 0.5
+                           damage_vs_country_type_fallen_empire_mult = 0.5
+                           damage_vs_country_type_awakened_fallen_empire_mult = 0.5
+            }
+}
+
+trait_Arcaea_spdc = {
+	cost = 1
+	allowed_archetypes = { ARCAEA }
+            modification = no
+            randomized = no
+	icon = "gfx/interface/icons/traits/arcaea_core_B.dds"
+            valid_for_all_ethics = no
+            allowed_ethics = {
+                           ethic_militarist
+            }
+
+            modifier = {
+                           planet_jobs_specialist_produces_mult = -0.05
+                           planet_jobs_worker_produces_mult = 0.2
+                           planet_stability_add = -5
+            }
+}

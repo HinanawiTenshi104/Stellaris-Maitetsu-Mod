@@ -1,0 +1,186 @@
+﻿Maitetsu = {
+
+	randomized = no
+	ship_names = {
+
+		generic = {
+		}
+
+
+		corvette = {
+		}
+		
+		constructor = {
+		}
+		
+		colonizer = {
+		}
+
+		sponsored_colonizer = {
+		}
+		
+		science = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+
+		titan = {
+		}
+
+		colossus = {
+		}
+		
+		transport = {
+		}
+
+		military_station_small = { 
+		}
+		
+		ion_cannon = {
+		}
+	}
+
+	fleet_names = {
+		sequential_name = "Locomotive %C%"
+	}
+	
+	army_names = {
+	
+		defense_army = {
+		}
+
+		assault_army = {
+		}
+		
+		slave_army = {
+		}
+		
+		clone_army = { 
+		}
+		
+		robotic_army = {
+		}
+
+		robotic_defense_army = {
+		}
+		
+		psionic_army = { 
+		}
+		
+		xenomorph_army = {
+		}
+		
+		gene_warrior_army = {
+		}
+		occupation_army = {
+		}
+
+		robotic_occupation_army = {
+		}
+		primitive_army = {
+		}
+		industrial_army = {
+		}
+		postatomic_army = {
+		}
+	}
+
+	planet_names = {
+
+		generic = {
+			names = {
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_gaia = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
+	}
+
+
+	### CHARACTERS
+
+	character_names = {
+		default = {
+			first_names = {
+			}
+                                    	second_names = {
+				Akai_Kiyoharu 
+				Denshahime 
+				Hayase_Fukami 
+				Hinai_Paulette 
+				Houshou_Kisaki 
+				Kyou_Youkou 
+				Michiko 
+				Migita_Hibiki 
+				Migita_Hikari 
+				Migita_Makura 
+				Migita_Soutetsu 
+				Minokasa_Nagi 
+				Ryuu_Shikan 
+				Munakata_Jinroku 
+				Hachiroku 
+				Hiyoko 
+				Mikuro 
+				Niiroku 
+				No.19 
+				Olivi 
+				Reina 
+				Suika
+			}
+		}
+	}
+}

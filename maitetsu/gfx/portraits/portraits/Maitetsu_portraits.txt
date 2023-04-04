@@ -1,0 +1,923 @@
+portraits = {
+	Akai_Kiyoharu01 = {texturefile = "gfx/models/portraits/Maitetsu/Akai_Kiyoharu01.png"}
+	Akai_Kiyoharu02 = {texturefile = "gfx/models/portraits/Maitetsu/Akai_Kiyoharu02.png"}
+	Akai_Kiyoharu03 = {texturefile = "gfx/models/portraits/Maitetsu/Akai_Kiyoharu03.png"}
+	Denshahime = {texturefile = "gfx/models/portraits/Maitetsu/Denshahime.png"}
+	Hachiroku01 = {texturefile = "gfx/models/portraits/Maitetsu/Hachiroku01.png"}
+	Hachiroku02 = {texturefile = "gfx/models/portraits/Maitetsu/Hachiroku02.png"}
+	Hachiroku03 = {texturefile = "gfx/models/portraits/Maitetsu/Hachiroku03.png"}
+	Hachiroku04 = {texturefile = "gfx/models/portraits/Maitetsu/Hachiroku04.png"}
+	Hayase_Fukami01 = {texturefile = "gfx/models/portraits/Maitetsu/Hayase_Fukami01.png"}
+	Hayase_Fukami02 = {texturefile = "gfx/models/portraits/Maitetsu/Hayase_Fukami02.png"}
+	Hayase_Fukami03 = {texturefile = "gfx/models/portraits/Maitetsu/Hayase_Fukami03.png"}
+	Hayase_Fukami04 = {texturefile = "gfx/models/portraits/Maitetsu/Hayase_Fukami04.png"}
+	Hayase_Fukami05 = {texturefile = "gfx/models/portraits/Maitetsu/Hayase_Fukami05.png"}
+	Hayase_Fukami06 = {texturefile = "gfx/models/portraits/Maitetsu/Hayase_Fukami06.png"}
+	Hayase_Fukami07 = {texturefile = "gfx/models/portraits/Maitetsu/Hayase_Fukami07.png"}
+	Hayase_Fukami08 = {texturefile = "gfx/models/portraits/Maitetsu/Hayase_Fukami08.png"}
+	Hayase_Fukami09 = {texturefile = "gfx/models/portraits/Maitetsu/Hayase_Fukami09.png"}
+	Hayase_Fukami10 = {texturefile = "gfx/models/portraits/Maitetsu/Hayase_Fukami10.png"}
+	Hayase_Fukami11 = {texturefile = "gfx/models/portraits/Maitetsu/Hayase_Fukami11.png"}
+	Hinai_Paulette01 = {texturefile = "gfx/models/portraits/Maitetsu/Hinai_Paulette01.png"}
+	Hinai_Paulette02 = {texturefile = "gfx/models/portraits/Maitetsu/Hinai_Paulette02.png"}
+	Hinai_Paulette03 = {texturefile = "gfx/models/portraits/Maitetsu/Hinai_Paulette03.png"}
+	Hinai_Paulette04 = {texturefile = "gfx/models/portraits/Maitetsu/Hinai_Paulette04.png"}
+	Hinai_Paulette05 = {texturefile = "gfx/models/portraits/Maitetsu/Hinai_Paulette05.png"}
+	Hinai_Paulette06 = {texturefile = "gfx/models/portraits/Maitetsu/Hinai_Paulette06.png"}
+	Hiyoko = {texturefile = "gfx/models/portraits/Maitetsu/Hiyoko.png"}
+	Houshou_Kisaki01 = {texturefile = "gfx/models/portraits/Maitetsu/Houshou_Kisaki01.png"}
+	Houshou_Kisaki02 = {texturefile = "gfx/models/portraits/Maitetsu/Houshou_Kisaki02.png"}
+	Kyou_Youkou = {texturefile = "gfx/models/portraits/Maitetsu/Kyou_Youkou.png"}
+	Michiko = {texturefile = "gfx/models/portraits/Maitetsu/Michiko.png"}
+	Migita_Hibiki01 = {texturefile = "gfx/models/portraits/Maitetsu/Migita_Hibiki01.png"}
+	Migita_Hibiki02 = {texturefile = "gfx/models/portraits/Maitetsu/Migita_Hibiki02.png"}
+	Migita_Hibiki03 = {texturefile = "gfx/models/portraits/Maitetsu/Migita_Hibiki03.png"}
+	Migita_Hibiki04 = {texturefile = "gfx/models/portraits/Maitetsu/Migita_Hibiki04.png"}
+	Migita_Hibiki05 = {texturefile = "gfx/models/portraits/Maitetsu/Migita_Hibiki05.png"}
+	Migita_Hibiki06 = {texturefile = "gfx/models/portraits/Maitetsu/Migita_Hibiki06.png"}
+	Migita_Hibiki07 = {texturefile = "gfx/models/portraits/Maitetsu/Migita_Hibiki07.png"}
+	Migita_Hibiki08 = {texturefile = "gfx/models/portraits/Maitetsu/Migita_Hibiki08.png"}
+	Migita_Hibiki09 = {texturefile = "gfx/models/portraits/Maitetsu/Migita_Hibiki09.png"}
+	Migita_Hibiki10 = {texturefile = "gfx/models/portraits/Maitetsu/Migita_Hibiki10.png"}
+	Migita_Hibiki11 = {texturefile = "gfx/models/portraits/Maitetsu/Migita_Hibiki11.png"}
+	Migita_Hibiki12 = {texturefile = "gfx/models/portraits/Maitetsu/Migita_Hibiki12.png"}
+	Migita_Hikari01 = {texturefile = "gfx/models/portraits/Maitetsu/Migita_Hikari01.png"}
+	Migita_Hikari02 = {texturefile = "gfx/models/portraits/Maitetsu/Migita_Hikari02.png"}
+	Migita_Hikari03 = {texturefile = "gfx/models/portraits/Maitetsu/Migita_Hikari03.png"}
+	Migita_Makura01 = {texturefile = "gfx/models/portraits/Maitetsu/Migita_Makura01.png"}
+	Migita_Makura02 = {texturefile = "gfx/models/portraits/Maitetsu/Migita_Makura02.png"}
+	Migita_Makura03 = {texturefile = "gfx/models/portraits/Maitetsu/Migita_Makura03.png"}
+	Migita_Soutetsu = {texturefile = "gfx/models/portraits/Maitetsu/Migita_Soutetsu.png"}
+	Mikuro = {texturefile = "gfx/models/portraits/Maitetsu/Mikuro.png"}
+	Minokasa_Nagi01 = {texturefile = "gfx/models/portraits/Maitetsu/Minokasa_Nagi01.png"}
+	Minokasa_Nagi02 = {texturefile = "gfx/models/portraits/Maitetsu/Minokasa_Nagi02.png"}
+	Minokasa_Nagi03 = {texturefile = "gfx/models/portraits/Maitetsu/Minokasa_Nagi03.png"}
+	Minokasa_Nagi04 = {texturefile = "gfx/models/portraits/Maitetsu/Minokasa_Nagi04.png"}
+	Minokasa_Nagi05 = {texturefile = "gfx/models/portraits/Maitetsu/Minokasa_Nagi05.png"}
+	Minokasa_Nagi06 = {texturefile = "gfx/models/portraits/Maitetsu/Minokasa_Nagi06.png"}
+	Minokasa_Nagi07 = {texturefile = "gfx/models/portraits/Maitetsu/Minokasa_Nagi07.png"}
+	Minokasa_Nagi08 = {texturefile = "gfx/models/portraits/Maitetsu/Minokasa_Nagi08.png"}
+	Minokasa_Nagi09 = {texturefile = "gfx/models/portraits/Maitetsu/Minokasa_Nagi09.png"}
+	Minokasa_Nagi10 = {texturefile = "gfx/models/portraits/Maitetsu/Minokasa_Nagi10.png"}
+	Minokasa_Nagi11 = {texturefile = "gfx/models/portraits/Maitetsu/Minokasa_Nagi11.png"}
+	Munakata_Jinroku = {texturefile = "gfx/models/portraits/Maitetsu/Munakata_Jinroku.png"}
+	Niiroku01 = {texturefile = "gfx/models/portraits/Maitetsu/Niiroku01.png"}
+	Niiroku02 = {texturefile = "gfx/models/portraits/Maitetsu/Niiroku02.png"}
+	No.19 = {texturefile = "gfx/models/portraits/Maitetsu/No.19.png"}
+	Olivi01 = {texturefile = "gfx/models/portraits/Maitetsu/Olivi01.png"}
+	Olivi02 = {texturefile = "gfx/models/portraits/Maitetsu/Olivi02.png"}
+	Reina01 = {texturefile = "gfx/models/portraits/Maitetsu/Reina01.png"}
+	Reina02 = {texturefile = "gfx/models/portraits/Maitetsu/Reina02.png"}
+	Reina03 = {texturefile = "gfx/models/portraits/Maitetsu/Reina03.png"}
+	Reina04 = {texturefile = "gfx/models/portraits/Maitetsu/Reina04.png"}
+	Ryuu_Shikan = {texturefile = "gfx/models/portraits/Maitetsu/Ryuu_Shikan.png"}
+	Suika = {texturefile = "gfx/models/portraits/Maitetsu/Suika.png"}
+}
+
+
+portrait_groups = {
+	Maitetsu_portraits = {
+		default = Hachiroku01
+		game_setup = { 
+			add = {
+				portraits = {
+					Hachiroku01
+					Hachiroku02
+					Hachiroku03
+					Hachiroku04
+					Hiyoko
+					Mikuro
+					Niiroku01
+					Niiroku02
+					No.19
+					Olivi01
+					Olivi02
+					Reina01
+					Reina02
+					Reina03
+					Reina04
+					Suika
+					Akai_Kiyoharu01
+					Akai_Kiyoharu02
+					Akai_Kiyoharu03
+					Denshahime
+					Hayase_Fukami01
+					Hayase_Fukami02
+					Hayase_Fukami03
+					Hayase_Fukami04
+					Hayase_Fukami05
+					Hayase_Fukami06
+					Hayase_Fukami07
+					Hayase_Fukami08
+					Hayase_Fukami09
+					Hayase_Fukami10
+					Hayase_Fukami11
+					Hinai_Paulette01
+					Hinai_Paulette02
+					Hinai_Paulette03
+					Hinai_Paulette04
+					Hinai_Paulette05
+					Hinai_Paulette06
+					Houshou_Kisaki01
+					Houshou_Kisaki02
+					Kyou_Youkou
+					Michiko
+					Migita_Hibiki01
+					Migita_Hibiki02
+					Migita_Hibiki03
+					Migita_Hibiki04
+					Migita_Hibiki05
+					Migita_Hibiki06
+					Migita_Hibiki07
+					Migita_Hibiki08
+					Migita_Hibiki09
+					Migita_Hibiki10
+					Migita_Hibiki11
+					Migita_Hibiki12
+					Migita_Hikari01
+					Migita_Hikari02
+					Migita_Hikari03
+					Migita_Makura01
+					Migita_Makura02
+					Migita_Makura03
+					Migita_Soutetsu
+					Minokasa_Nagi01
+					Minokasa_Nagi03
+					Minokasa_Nagi02
+					Minokasa_Nagi05
+					Minokasa_Nagi04
+					Minokasa_Nagi07
+					Minokasa_Nagi06
+					Minokasa_Nagi09
+					Minokasa_Nagi08
+					Minokasa_Nagi11
+					Minokasa_Nagi10
+					Ryuu_Shikan
+					Munakata_Jinroku
+				}
+			}
+		}
+		species = { 
+			add = {
+				portraits = {
+					Hachiroku01
+					Hachiroku02
+					Hachiroku03
+					Hachiroku04
+					Hiyoko
+					Mikuro
+					Niiroku01
+					Niiroku02
+					No.19
+					Olivi01
+					Olivi02
+					Reina01
+					Reina02
+					Reina03
+					Reina04
+					Suika
+					Akai_Kiyoharu01
+					Akai_Kiyoharu02
+					Akai_Kiyoharu03
+					Denshahime
+					Hayase_Fukami01
+					Hayase_Fukami02
+					Hayase_Fukami03
+					Hayase_Fukami04
+					Hayase_Fukami05
+					Hayase_Fukami06
+					Hayase_Fukami07
+					Hayase_Fukami08
+					Hayase_Fukami09
+					Hayase_Fukami10
+					Hayase_Fukami11
+					Hinai_Paulette01
+					Hinai_Paulette02
+					Hinai_Paulette03
+					Hinai_Paulette04
+					Hinai_Paulette05
+					Hinai_Paulette06
+					Houshou_Kisaki01
+					Houshou_Kisaki02
+					Kyou_Youkou
+					Michiko
+					Migita_Hibiki01
+					Migita_Hibiki02
+					Migita_Hibiki03
+					Migita_Hibiki04
+					Migita_Hibiki05
+					Migita_Hibiki06
+					Migita_Hibiki07
+					Migita_Hibiki08
+					Migita_Hibiki09
+					Migita_Hibiki10
+					Migita_Hibiki11
+					Migita_Hibiki12
+					Migita_Hikari01
+					Migita_Hikari02
+					Migita_Hikari03
+					Migita_Makura01
+					Migita_Makura02
+					Migita_Makura03
+					Migita_Soutetsu
+					Minokasa_Nagi01
+					Minokasa_Nagi03
+					Minokasa_Nagi02
+					Minokasa_Nagi05
+					Minokasa_Nagi04
+					Minokasa_Nagi07
+					Minokasa_Nagi06
+					Minokasa_Nagi09
+					Minokasa_Nagi08
+					Minokasa_Nagi11
+					Minokasa_Nagi10
+					Ryuu_Shikan
+					Munakata_Jinroku
+				}
+			}
+		}
+		
+		pop = { 
+			add = {
+				portraits = {
+					Hachiroku01
+					Hachiroku02
+					Hachiroku03
+					Hachiroku04
+					Hiyoko
+					Mikuro
+					Niiroku01
+					Niiroku02
+					No.19
+					Olivi01
+					Olivi02
+					Reina01
+					Reina02
+					Reina03
+					Reina04
+					Suika
+					Akai_Kiyoharu01
+					Akai_Kiyoharu02
+					Akai_Kiyoharu03
+					Denshahime
+					Hayase_Fukami01
+					Hayase_Fukami02
+					Hayase_Fukami03
+					Hayase_Fukami04
+					Hayase_Fukami05
+					Hayase_Fukami06
+					Hayase_Fukami07
+					Hayase_Fukami08
+					Hayase_Fukami09
+					Hayase_Fukami10
+					Hayase_Fukami11
+					Hinai_Paulette01
+					Hinai_Paulette02
+					Hinai_Paulette03
+					Hinai_Paulette04
+					Hinai_Paulette05
+					Hinai_Paulette06
+					Houshou_Kisaki01
+					Houshou_Kisaki02
+					Kyou_Youkou
+					Michiko
+					Migita_Hibiki01
+					Migita_Hibiki02
+					Migita_Hibiki03
+					Migita_Hibiki04
+					Migita_Hibiki05
+					Migita_Hibiki06
+					Migita_Hibiki07
+					Migita_Hibiki08
+					Migita_Hibiki09
+					Migita_Hibiki10
+					Migita_Hibiki11
+					Migita_Hibiki12
+					Migita_Hikari01
+					Migita_Hikari02
+					Migita_Hikari03
+					Migita_Makura01
+					Migita_Makura02
+					Migita_Makura03
+					Migita_Soutetsu
+					Minokasa_Nagi01
+					Minokasa_Nagi03
+					Minokasa_Nagi02
+					Minokasa_Nagi05
+					Minokasa_Nagi04
+					Minokasa_Nagi07
+					Minokasa_Nagi06
+					Minokasa_Nagi09
+					Minokasa_Nagi08
+					Minokasa_Nagi11
+					Minokasa_Nagi10
+					Ryuu_Shikan
+					Munakata_Jinroku
+				}
+			}
+		}
+
+		leader = { 
+			add = {
+				portraits = {
+					Hachiroku01
+					Hachiroku02
+					Hachiroku03
+					Hachiroku04
+					Hiyoko
+					Mikuro
+					Niiroku01
+					Niiroku02
+					No.19
+					Olivi01
+					Olivi02
+					Reina01
+					Reina02
+					Reina03
+					Reina04
+					Suika
+					Akai_Kiyoharu01
+					Akai_Kiyoharu02
+					Akai_Kiyoharu03
+					Denshahime
+					Hayase_Fukami01
+					Hayase_Fukami02
+					Hayase_Fukami03
+					Hayase_Fukami04
+					Hayase_Fukami05
+					Hayase_Fukami06
+					Hayase_Fukami07
+					Hayase_Fukami08
+					Hayase_Fukami09
+					Hayase_Fukami10
+					Hayase_Fukami11
+					Hinai_Paulette01
+					Hinai_Paulette02
+					Hinai_Paulette03
+					Hinai_Paulette04
+					Hinai_Paulette05
+					Hinai_Paulette06
+					Houshou_Kisaki01
+					Houshou_Kisaki02
+					Kyou_Youkou
+					Michiko
+					Migita_Hibiki01
+					Migita_Hibiki02
+					Migita_Hibiki03
+					Migita_Hibiki04
+					Migita_Hibiki05
+					Migita_Hibiki06
+					Migita_Hibiki07
+					Migita_Hibiki08
+					Migita_Hibiki09
+					Migita_Hibiki10
+					Migita_Hibiki11
+					Migita_Hibiki12
+					Migita_Hikari01
+					Migita_Hikari02
+					Migita_Hikari03
+					Migita_Makura01
+					Migita_Makura02
+					Migita_Makura03
+					Migita_Soutetsu
+					Minokasa_Nagi01
+					Minokasa_Nagi03
+					Minokasa_Nagi02
+					Minokasa_Nagi05
+					Minokasa_Nagi04
+					Minokasa_Nagi07
+					Minokasa_Nagi06
+					Minokasa_Nagi09
+					Minokasa_Nagi08
+					Minokasa_Nagi11
+					Minokasa_Nagi10
+					Ryuu_Shikan
+					Munakata_Jinroku
+				}
+			}
+		}
+
+		ruler = {
+			add = {
+				portraits = {
+					Hachiroku01
+					Hachiroku02
+					Hachiroku03
+					Hachiroku04
+					Hiyoko
+					Mikuro
+					Niiroku01
+					Niiroku02
+					No.19
+					Olivi01
+					Olivi02
+					Reina01
+					Reina02
+					Reina03
+					Reina04
+					Suika
+					Akai_Kiyoharu01
+					Akai_Kiyoharu02
+					Akai_Kiyoharu03
+					Denshahime
+					Hayase_Fukami01
+					Hayase_Fukami02
+					Hayase_Fukami03
+					Hayase_Fukami04
+					Hayase_Fukami05
+					Hayase_Fukami06
+					Hayase_Fukami07
+					Hayase_Fukami08
+					Hayase_Fukami09
+					Hayase_Fukami10
+					Hayase_Fukami11
+					Hinai_Paulette01
+					Hinai_Paulette02
+					Hinai_Paulette03
+					Hinai_Paulette04
+					Hinai_Paulette05
+					Hinai_Paulette06
+					Houshou_Kisaki01
+					Houshou_Kisaki02
+					Kyou_Youkou
+					Michiko
+					Migita_Hibiki01
+					Migita_Hibiki02
+					Migita_Hibiki03
+					Migita_Hibiki04
+					Migita_Hibiki05
+					Migita_Hibiki06
+					Migita_Hibiki07
+					Migita_Hibiki08
+					Migita_Hibiki09
+					Migita_Hibiki10
+					Migita_Hibiki11
+					Migita_Hibiki12
+					Migita_Hikari01
+					Migita_Hikari02
+					Migita_Hikari03
+					Migita_Makura01
+					Migita_Makura02
+					Migita_Makura03
+					Migita_Soutetsu
+					Minokasa_Nagi01
+					Minokasa_Nagi03
+					Minokasa_Nagi02
+					Minokasa_Nagi05
+					Minokasa_Nagi04
+					Minokasa_Nagi07
+					Minokasa_Nagi06
+					Minokasa_Nagi09
+					Minokasa_Nagi08
+					Minokasa_Nagi11
+					Minokasa_Nagi10
+					Ryuu_Shikan
+					Munakata_Jinroku
+				}
+			}
+		}
+	}
+
+
+
+	Raillord_portraits = {
+		default = Hachiroku01
+		game_setup = { 
+			add = {
+				portraits = {
+					Hachiroku01
+					Hachiroku02
+					Hachiroku03
+					Hachiroku04
+					Hiyoko
+					Mikuro
+					Niiroku01
+					Niiroku02
+					No.19
+					Olivi01
+					Olivi02
+					Reina01
+					Reina02
+					Reina03
+					Reina04
+					Suika
+				}
+			}
+		}
+		species = { 
+			add = {
+				portraits = {
+					Hachiroku01
+					Hachiroku02
+					Hachiroku03
+					Hachiroku04
+					Hiyoko
+					Mikuro
+					Niiroku01
+					Niiroku02
+					No.19
+					Olivi01
+					Olivi02
+					Reina01
+					Reina02
+					Reina03
+					Reina04
+					Suika
+				}
+			}
+		}
+		
+		pop = { 
+			add = {
+				portraits = {
+					Hachiroku01
+					Hachiroku02
+					Hachiroku03
+					Hachiroku04
+					Hiyoko
+					Mikuro
+					Niiroku01
+					Niiroku02
+					No.19
+					Olivi01
+					Olivi02
+					Reina01
+					Reina02
+					Reina03
+					Reina04
+					Suika
+				}
+			}
+		}
+
+		leader = { 
+			add = {
+				portraits = {
+					Hachiroku01
+					Hachiroku02
+					Hachiroku03
+					Hachiroku04
+					Hiyoko
+					Mikuro
+					Niiroku01
+					Niiroku02
+					No.19
+					Olivi01
+					Olivi02
+					Reina01
+					Reina02
+					Reina03
+					Reina04
+					Suika
+				}
+			}
+		}
+
+		ruler = {
+			add = {
+				portraits = {
+					Hachiroku01
+					Hachiroku02
+					Hachiroku03
+					Hachiroku04
+					Hiyoko
+					Mikuro
+					Niiroku01
+					Niiroku02
+					No.19
+					Olivi01
+					Olivi02
+					Reina01
+					Reina02
+					Reina03
+					Reina04
+					Suika
+				}
+			}
+		}
+	}
+
+
+
+	Human_portraits{
+		default = Migita_Soutetsu
+		game_setup = { 
+			add = {
+				portraits = {
+					Akai_Kiyoharu01
+					Akai_Kiyoharu02
+					Akai_Kiyoharu03
+					Denshahime
+					Hayase_Fukami01
+					Hayase_Fukami02
+					Hayase_Fukami03
+					Hayase_Fukami04
+					Hayase_Fukami05
+					Hayase_Fukami06
+					Hayase_Fukami07
+					Hayase_Fukami08
+					Hayase_Fukami09
+					Hayase_Fukami10
+					Hayase_Fukami11
+					Hinai_Paulette01
+					Hinai_Paulette02
+					Hinai_Paulette03
+					Hinai_Paulette04
+					Hinai_Paulette05
+					Hinai_Paulette06
+					Houshou_Kisaki01
+					Houshou_Kisaki02
+					Kyou_Youkou
+					Michiko
+					Migita_Hibiki01
+					Migita_Hibiki02
+					Migita_Hibiki03
+					Migita_Hibiki04
+					Migita_Hibiki05
+					Migita_Hibiki06
+					Migita_Hibiki07
+					Migita_Hibiki08
+					Migita_Hibiki09
+					Migita_Hibiki10
+					Migita_Hibiki11
+					Migita_Hibiki12
+					Migita_Hikari01
+					Migita_Hikari02
+					Migita_Hikari03
+					Migita_Makura01
+					Migita_Makura02
+					Migita_Makura03
+					Migita_Soutetsu
+					Minokasa_Nagi01
+					Minokasa_Nagi03
+					Minokasa_Nagi02
+					Minokasa_Nagi05
+					Minokasa_Nagi04
+					Minokasa_Nagi07
+					Minokasa_Nagi06
+					Minokasa_Nagi09
+					Minokasa_Nagi08
+					Minokasa_Nagi11
+					Minokasa_Nagi10
+					Ryuu_Shikan
+					Munakata_Jinroku
+				}
+			}
+		}
+		species = { 
+			add = {
+				portraits = {
+					Akai_Kiyoharu01
+					Akai_Kiyoharu02
+					Akai_Kiyoharu03
+					Denshahime
+					Hayase_Fukami01
+					Hayase_Fukami02
+					Hayase_Fukami03
+					Hayase_Fukami04
+					Hayase_Fukami05
+					Hayase_Fukami06
+					Hayase_Fukami07
+					Hayase_Fukami08
+					Hayase_Fukami09
+					Hayase_Fukami10
+					Hayase_Fukami11
+					Hinai_Paulette01
+					Hinai_Paulette02
+					Hinai_Paulette03
+					Hinai_Paulette04
+					Hinai_Paulette05
+					Hinai_Paulette06
+					Houshou_Kisaki01
+					Houshou_Kisaki02
+					Kyou_Youkou
+					Michiko
+					Migita_Hibiki01
+					Migita_Hibiki02
+					Migita_Hibiki03
+					Migita_Hibiki04
+					Migita_Hibiki05
+					Migita_Hibiki06
+					Migita_Hibiki07
+					Migita_Hibiki08
+					Migita_Hibiki09
+					Migita_Hibiki10
+					Migita_Hibiki11
+					Migita_Hibiki12
+					Migita_Hikari01
+					Migita_Hikari02
+					Migita_Hikari03
+					Migita_Makura01
+					Migita_Makura02
+					Migita_Makura03
+					Migita_Soutetsu
+					Minokasa_Nagi01
+					Minokasa_Nagi03
+					Minokasa_Nagi02
+					Minokasa_Nagi05
+					Minokasa_Nagi04
+					Minokasa_Nagi07
+					Minokasa_Nagi06
+					Minokasa_Nagi09
+					Minokasa_Nagi08
+					Minokasa_Nagi11
+					Minokasa_Nagi10
+					Ryuu_Shikan
+					Munakata_Jinroku
+				}
+			}
+		}
+		
+		pop = { 
+			add = {
+				portraits = {
+					Akai_Kiyoharu01
+					Akai_Kiyoharu02
+					Akai_Kiyoharu03
+					Denshahime
+					Hayase_Fukami01
+					Hayase_Fukami02
+					Hayase_Fukami03
+					Hayase_Fukami04
+					Hayase_Fukami05
+					Hayase_Fukami06
+					Hayase_Fukami07
+					Hayase_Fukami08
+					Hayase_Fukami09
+					Hayase_Fukami10
+					Hayase_Fukami11
+					Hinai_Paulette01
+					Hinai_Paulette02
+					Hinai_Paulette03
+					Hinai_Paulette04
+					Hinai_Paulette05
+					Hinai_Paulette06
+					Houshou_Kisaki01
+					Houshou_Kisaki02
+					Kyou_Youkou
+					Michiko
+					Migita_Hibiki01
+					Migita_Hibiki02
+					Migita_Hibiki03
+					Migita_Hibiki04
+					Migita_Hibiki05
+					Migita_Hibiki06
+					Migita_Hibiki07
+					Migita_Hibiki08
+					Migita_Hibiki09
+					Migita_Hibiki10
+					Migita_Hibiki11
+					Migita_Hibiki12
+					Migita_Hikari01
+					Migita_Hikari02
+					Migita_Hikari03
+					Migita_Makura01
+					Migita_Makura02
+					Migita_Makura03
+					Migita_Soutetsu
+					Minokasa_Nagi01
+					Minokasa_Nagi03
+					Minokasa_Nagi02
+					Minokasa_Nagi05
+					Minokasa_Nagi04
+					Minokasa_Nagi07
+					Minokasa_Nagi06
+					Minokasa_Nagi09
+					Minokasa_Nagi08
+					Minokasa_Nagi11
+					Minokasa_Nagi10
+					Ryuu_Shikan
+					Munakata_Jinroku
+				}
+			}
+		}
+
+		leader = { 
+			add = {
+				portraits = {
+					Akai_Kiyoharu01
+					Akai_Kiyoharu02
+					Akai_Kiyoharu03
+					Denshahime
+					Hayase_Fukami01
+					Hayase_Fukami02
+					Hayase_Fukami03
+					Hayase_Fukami04
+					Hayase_Fukami05
+					Hayase_Fukami06
+					Hayase_Fukami07
+					Hayase_Fukami08
+					Hayase_Fukami09
+					Hayase_Fukami10
+					Hayase_Fukami11
+					Hinai_Paulette01
+					Hinai_Paulette02
+					Hinai_Paulette03
+					Hinai_Paulette04
+					Hinai_Paulette05
+					Hinai_Paulette06
+					Houshou_Kisaki01
+					Houshou_Kisaki02
+					Kyou_Youkou
+					Michiko
+					Migita_Hibiki01
+					Migita_Hibiki02
+					Migita_Hibiki03
+					Migita_Hibiki04
+					Migita_Hibiki05
+					Migita_Hibiki06
+					Migita_Hibiki07
+					Migita_Hibiki08
+					Migita_Hibiki09
+					Migita_Hibiki10
+					Migita_Hibiki11
+					Migita_Hibiki12
+					Migita_Hikari01
+					Migita_Hikari02
+					Migita_Hikari03
+					Migita_Makura01
+					Migita_Makura02
+					Migita_Makura03
+					Migita_Soutetsu
+					Minokasa_Nagi01
+					Minokasa_Nagi03
+					Minokasa_Nagi02
+					Minokasa_Nagi05
+					Minokasa_Nagi04
+					Minokasa_Nagi07
+					Minokasa_Nagi06
+					Minokasa_Nagi09
+					Minokasa_Nagi08
+					Minokasa_Nagi11
+					Minokasa_Nagi10
+					Ryuu_Shikan
+					Munakata_Jinroku
+				}
+			}
+		}
+
+		ruler = {
+			add = {
+				portraits = {
+					Akai_Kiyoharu01
+					Akai_Kiyoharu02
+					Akai_Kiyoharu03
+					Denshahime
+					Hayase_Fukami01
+					Hayase_Fukami02
+					Hayase_Fukami03
+					Hayase_Fukami04
+					Hayase_Fukami05
+					Hayase_Fukami06
+					Hayase_Fukami07
+					Hayase_Fukami08
+					Hayase_Fukami09
+					Hayase_Fukami10
+					Hayase_Fukami11
+					Hinai_Paulette01
+					Hinai_Paulette02
+					Hinai_Paulette03
+					Hinai_Paulette04
+					Hinai_Paulette05
+					Hinai_Paulette06
+					Houshou_Kisaki01
+					Houshou_Kisaki02
+					Kyou_Youkou
+					Michiko
+					Migita_Hibiki01
+					Migita_Hibiki02
+					Migita_Hibiki03
+					Migita_Hibiki04
+					Migita_Hibiki05
+					Migita_Hibiki06
+					Migita_Hibiki07
+					Migita_Hibiki08
+					Migita_Hibiki09
+					Migita_Hibiki10
+					Migita_Hibiki11
+					Migita_Hibiki12
+					Migita_Hikari01
+					Migita_Hikari02
+					Migita_Hikari03
+					Migita_Makura01
+					Migita_Makura02
+					Migita_Makura03
+					Migita_Soutetsu
+					Minokasa_Nagi01
+					Minokasa_Nagi03
+					Minokasa_Nagi02
+					Minokasa_Nagi05
+					Minokasa_Nagi04
+					Minokasa_Nagi07
+					Minokasa_Nagi06
+					Minokasa_Nagi09
+					Minokasa_Nagi08
+					Minokasa_Nagi11
+					Minokasa_Nagi10
+					Ryuu_Shikan
+					Munakata_Jinroku
+				}
+			}
+		}
+	}
+}
